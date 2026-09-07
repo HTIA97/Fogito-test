@@ -1,0 +1,49 @@
+{
+  "users": [
+    { "name": "Aysel Mammadova", "email": "aysel@fogito.com", "color": "#6366f1" },
+    { "name": "Rashad Huseynov", "email": "rashad@fogito.com", "color": "#22c55e" },
+    { "name": "Nigar Aliyeva", "email": "nigar@fogito.com", "color": "#f59e0b" },
+    { "name": "Tural Guliyev", "email": "tural@fogito.com", "color": "#ec4899" },
+    { "name": "Asif Ahmadov", "email": "asif@fogito.com", "color": "#0ea5e9" }
+  ],
+  "projects": [
+    {
+      "name": "Fogito Website Relaunch",
+      "description": "Redesign and rebuild the public marketing site.",
+      "color": "#6366f1"
+    },
+    {
+      "name": "Mobile App v2",
+      "description": "Second major release of the Fogito mobile app.",
+      "color": "#22c55e"
+    },
+    {
+      "name": "Internal Tools",
+      "description": "Task management, reporting and admin dashboards for the team.",
+      "color": "#f59e0b"
+    }
+  ],
+  "tasks": [
+    { "project": "Fogito Website Relaunch", "title": "Audit current site content", "description": "Inventory all existing pages and flag outdated copy.", "status": "done", "priority": "medium", "assignee": "aysel@fogito.com", "due_date": "2026-08-10" },
+    { "project": "Fogito Website Relaunch", "title": "Design new homepage hero", "description": "Explore 3 concepts for the hero section with the new brand palette.", "status": "done", "priority": "high", "assignee": "nigar@fogito.com", "due_date": "2026-08-18" },
+    { "project": "Fogito Website Relaunch", "title": "Build responsive navigation", "description": "Implement the new nav bar with mobile drawer menu.", "status": "in_progress", "priority": "high", "assignee": "rashad@fogito.com", "due_date": "2026-09-12" },
+    { "project": "Fogito Website Relaunch", "title": "Set up analytics tracking", "description": "Wire up event tracking for key conversion actions.", "status": "in_progress", "priority": "medium", "assignee": "tural@fogito.com", "due_date": "2026-09-15" },
+    { "project": "Fogito Website Relaunch", "title": "Write pricing page copy", "description": "Draft final copy for the new pricing tiers.", "status": "todo", "priority": "medium", "assignee": "asif@fogito.com", "due_date": "2026-09-20" },
+    { "project": "Fogito Website Relaunch", "title": "Cross-browser QA pass", "description": "Test on Safari, Firefox, Chrome and Edge.", "status": "todo", "priority": "low", "assignee": null, "due_date": "2026-09-25" },
+    { "project": "Fogito Website Relaunch", "title": "SEO metadata review", "description": "Check titles, descriptions and structured data for all pages.", "status": "todo", "priority": "low", "assignee": "aysel@fogito.com", "due_date": "2026-09-28" },
+
+    { "project": "Mobile App v2", "title": "Define v2 feature scope", "description": "Finalize the feature list with product and design.", "status": "done", "priority": "high", "assignee": "asif@fogito.com", "due_date": "2026-07-30" },
+    { "project": "Mobile App v2", "title": "Design offline-mode UX", "description": "Design flows for offline task creation and sync.", "status": "in_progress", "priority": "high", "assignee": "nigar@fogito.com", "due_date": "2026-09-10" },
+    { "project": "Mobile App v2", "title": "Implement push notifications", "description": "Add push notification support for task reminders.", "status": "in_progress", "priority": "high", "assignee": "rashad@fogito.com", "due_date": "2026-09-18" },
+    { "project": "Mobile App v2", "title": "Migrate to new auth SDK", "description": "Replace legacy auth library with the updated SDK.", "status": "in_progress", "priority": "medium", "assignee": "tural@fogito.com", "due_date": "2026-09-22" },
+    { "project": "Mobile App v2", "title": "Beta TestFlight rollout", "description": "Ship the beta build to the TestFlight group.", "status": "todo", "priority": "medium", "assignee": "asif@fogito.com", "due_date": "2026-10-01" },
+    { "project": "Mobile App v2", "title": "Localize app into Azerbaijani", "description": "Translate all UI strings and test RTL edge cases.", "status": "todo", "priority": "medium", "assignee": "aysel@fogito.com", "due_date": "2026-10-05" },
+    { "project": "Mobile App v2", "title": "Performance profiling on low-end devices", "description": "Profile startup time and memory on budget Android devices.", "status": "todo", "priority": "low", "assignee": null, "due_date": "2026-10-10" },
+
+    { "project": "Internal Tools", "title": "Stand up task management app", "description": "Build the internal task board (this project!).", "status": "in_progress", "priority": "high", "assignee": "asif@fogito.com", "due_date": "2026-09-08" },
+    { "project": "Internal Tools", "title": "Add weekly progress report", "description": "Auto-generate a Monday summary of task status changes.", "status": "todo", "priority": "medium", "assignee": "tural@fogito.com", "due_date": "2026-09-19" },
+    { "project": "Internal Tools", "title": "Set up CI for backend tests", "description": "Add a GitHub Actions workflow to run the API test suite.", "status": "todo", "priority": "medium", "assignee": "rashad@fogito.com", "due_date": "2026-09-21" },
+    { "project": "Internal Tools", "title": "Admin dashboard for user roles", "description": "Let admins promote/demote team member roles.", "status": "todo", "priority": "low", "assignee": null, "due_date": "2026-10-02" },
+    { "project": "Internal Tools", "title": "Dark mode for internal tools", "description": "Add a dark theme toggle across internal dashboards.", "status": "done", "priority": "low", "assignee": "nigar@fogito.com", "due_date": "2026-08-25" }
+  ]
+}
